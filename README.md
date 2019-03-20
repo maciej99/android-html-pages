@@ -1,8 +1,6 @@
 # Project: android-html-pages
 
-This set of bash scripts and html components allows to export Android project to html page.
-If you use Android Studio on linux, now you can make a quick and simple html page showing the most vital source code files
-for each Android project.
+If you use Android Studio on linux, this set of scripts will help you to make a simple html page, that shows source code files of each Android project.
 
 ## Prerequisites
 
@@ -20,7 +18,7 @@ For example:
 $./make_page.sh ~/AndroidStudioProjects/MyApp/
 ```
 
-Then open `index.html` in your browser to view the output. The contents block will be visible on the left side, and with this you can navigate on the newly created project page.
+Then open `index.html` in your browser to view the output. The contents block will be visible on the left side, and from here you can navigate on the newly created project page.
 * Running the script on another project creates another page, and adds another contents block.
 * Running the script **on the same project again** will overwrite its page and replace its contents block.  
 

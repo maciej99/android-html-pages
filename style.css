@@ -1,0 +1,38 @@
+/* style-sheet for android project page */
+body {	color:black;
+	background-color: #F9F9FA;
+	font-family: monospace, helvetica, sans-serif;
+	font-size: 100%; padding: 12px;}
+h1 {color: #000;}
+h2 {margin-top: 45px; color: #778;}
+.filepath {
+	background-color: LightGray;
+	font-size: 90% }
+pre.java {
+	border: 1px solid #778899; 
+	background-color: #FFC;
+	font-size: 90%;}
+pre.kotlin {
+	border: 1px solid #778899;
+	background-color: #EFEFCF;
+	font-size: 90%;}
+pre.xml {
+	border: 1px solid #778899;
+	background-color: #E3EAFF;
+	font-size: 90%;}
+/* colors for java files */
+.java_keyword { color: #925; font-weight: bold; }
+.java_string_literal {
+	color: #070;
+	font-style: normal;
+	font-weight: bold; }
+.java_comment { color: #00F; font-style: bold; }
+.java_block_comment { color: #084; font-style: italic; }
+/* colors for xml files */
+.xml_block_comment { color: #00F; font-style: italic; }
+.xml_string_literal {
+		color: #070;
+		font-style: normal;
+		font-weight: bold; }
+.xml_android {color: #A82; font-weight: bold}
+.xml_android_attr {color: #33F;}

@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<style type="text/css">
+body {	color: black;
+	background-color: #F3F0FA;
+	font-family: monospace, helvetica, sans-serif;
+	padding: 0.2em;}
+h1 {color: Chocolate; font-size: 1.7em; margin-bottom: 1em;
+	font-family: arial, helvetica, monospace;}
+h2 {color: Black; font-size: 1em; margin-bottom: 1em;}
+pre.tree {background-color: white; font-size: 95%;}
+div.contents {font-size: 95%;}
+a { font-weight: normal; text-decoration:none;
+	color: Mediumblue; margin-bottom: 0.2em;}
+a:hover { text-decoration: underline; color: Dodgerblue;}
+.container{background-color: #30798A; margin-bottom: 1em;
+	border: none;cursor: pointer;padding: 0.2em;}
+.container:hover {background-color: #9CAF40;}
+.heading {
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0.2em;}
+.hidenDiv {
+	height: 0em;
+	overflow: hidden;
+	background-color: #FAFAFA;
+	color: #222;
+	margin: 0.2em; }
+.hidenPar {margin-left: 0.2em; font-size: 1em;}
+.show {height: auto;}
+.colored {background-color: #3C9F40;}
+</style>
+<script>
+// script applies class "show"
+// to a div under heading (by id1)
+// and change the color of that div (by id2)
+function show(id1,id2) {
+  document.getElementById(id1).classList.toggle("show");
+  document.getElementById(id2).classList.toggle("colored");
+}
+</script> 
+</head>
+<body>
+<h1>Android Projects</h1>
+<!--NEXT_PROJECT_HERE-->
+</body>
+</html>

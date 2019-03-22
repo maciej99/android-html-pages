@@ -4,7 +4,7 @@ If you use Android Studio on linux, this set of scripts will help you to make a 
 
 ## Prerequisites
 
-The main script will use command **tree**. If it is not installed on your system yet, you can install it with `apt install tree` or `yum install tree`, depending which linux distribution you use. The scripts also use *sed* and *awk*, which are most likely available in every distribution. Copy the whole set of files in a preferred directory and make sure that `*.sh` scripts have permissions to be executable. The scripts have been tested on Centos 7 and Xubuntu 18.04.
+The main script will use command **tree**. If it is not installed on your system yet, you can install it with `apt install tree` or `yum install tree`, depending which linux distribution you use. The scripts also use *sed* and *awk*, which are most likely available in every distribution. Copy the whole set of files in a preferred directory and make sure that `*.sh` scripts have permissions to be executable.
 
 ## Usage
 

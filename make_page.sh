@@ -40,7 +40,7 @@ fi
 
 fileheading() {
 # crop the full path, so it starts with [ProjectName].
-ref=$(echo $1 | sed -e 's/^\/.*\/\('"$PROJECTNAME"'\)/\1/');
+ref=$(echo $1 | sed -e 's/^\/.*\/\('"$PROJECTNAME"'\/\)/\1/');
 echo "<p id=\"$ref\">"
 echo "<br>"
 echo "File: <span class=\"filepath\">$ref</span>:"

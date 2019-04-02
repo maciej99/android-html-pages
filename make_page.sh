@@ -119,7 +119,7 @@ contentstail $PROJECTNAME >> tmp_contents;
 # write the begining of [ProjectName].html
 pagehead $PROJECTNAME > $page;
 # minimalist sed command to put src text into <pre>...<pre>
-preregex='s/&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;'
+presed='s/&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;'
 # read files as listed in contents
 cat tmp_tree | while read line;
 do
@@ -132,7 +132,7 @@ do
       kt)
 	fileheading $f >> $page;
 	echo "<pre class=\"kotlin\">" >> $page;
-	sed -e "$preregex" $f >>$page
+	sed -e "$presed" $f >>$page
 	echo "</pre>" >> $page;;
       xml)
 	fileheading $f >> $page;
